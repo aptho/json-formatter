@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.button-wrapper {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.text-area {
+    width: 400px;
+    height: 500px;
+    resize: none;
+}
+
+.button:first-of-type {
+    margin-bottom: 20px;
+}
+
+.errors {
+    background: red;
+    width: 750px;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+}

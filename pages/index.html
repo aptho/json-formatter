@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JSON Formatter</title>
+        <script src="dist/main.js"></script>
+        <link rel="stylesheet" href="dist/main.css">
+    </head>
+
+    <body>
+        <h2>JSON Formatter</h2>
+        <div id="errors" class="errors" hidden></div>
+        <div class="wrapper">
+            <textarea class="text-area" id="unformatted" name="unformatted"></textarea>
+            <div class="button-wrapper">
+                <button class="button" id="format-button">Format</button>
+                <button class="button" id="minify-button">Minify</button>
+            </div>
+            <textarea class="text-area" id="formatted" name="unformatted" readonly></textarea>
+        </div>
+    </body>
+</html> 
